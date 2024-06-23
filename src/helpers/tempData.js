@@ -3,25 +3,25 @@
 export const tempTodos = [
     {
       label: "Cook food",
-      id: 1,
+      id: Math.round(Math.random() + Date.now()).toString(),
       completed: false,
       time: new Date().toDateString(),
     },
     {
       label: "Go to the market",
-      id: 2,
+      id: Math.round(Math.random() + Date.now()).toString(),
       completed: false,
       time: new Date().toDateString(),
     },
     {
       label: "Take your bath",
-      id: 3,
+      id: Math.round(Math.random() + Date.now()).toString(),
       completed: false,
       time: new Date().toDateString(),
     },
     {
       label: "Reast or sleep",
-      id: 4,
+      id: Math.round(Math.random() + Date.now()).toString(),
       completed: false,
       time: new Date().toDateString(),
     },

@@ -2,9 +2,9 @@ import "./style.css"
 import {createApp} from "vue"
 import App from "./App.vue"
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { FaCircle, FaTrashAlt, FaPlus } from "oh-vue-icons/icons";
+import { FaEdit, FaTrashAlt, FaPlus, FaCheck } from "oh-vue-icons/icons";
 
-addIcons(FaCircle, FaTrashAlt, FaPlus);
+addIcons(FaEdit, FaTrashAlt, FaPlus, FaCheck);
 
 
 const app = createApp(App)

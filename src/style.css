@@ -6,31 +6,14 @@
 
 
 
-body {
-  font: 15px/1.4 "Poppins", sans-serif;
-  background: #7c5e31;
-  color: #333;
-}
-
-
-
-
-
-
 @layer components {
   .btn {
-    @apply  w-full bg-primary-color text-text-color border-none rounded-[10px] p-[10px] mx-[5px] hover:bg-secondary-color
+    @apply  w-full bg-primary-color text-text-color border-none rounded-[10px] p-[10px] mx-[5px] transition-colors ease-linear duration-300 hover:bg-secondary-color
   }
-  button {
-    cursor: pointer;
-    font: 15px/1.4 sans-serif;
-    transition: all 0.3s linear;
+  .transition{
+    @apply transition-colors ease-linear duration-300 hover:text-primary-color
   }
-  
-  button:focus {
-    outline: none;
-  }
-  
+
 }
 
 
